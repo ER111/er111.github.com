@@ -5,14 +5,20 @@
 			// alert("bang");
  
 			function goto() {
-				var random = Math.random() * 300;
+				var random = Math.random() * 600;
 				if(random <=100) {
-					window.location.href='https://www.sojump.hk/jq/11270780.aspx';
+					window.location.href='https://www.sojump.hk/jq/11370966.aspx';
 				} else if(random<=200) {
-					window.location.href='https://sojump.com/jq/11270729.aspx';
+					window.location.href='https://www.sojump.hk/jq/11270780.aspx';
+				} else if(random<=300) {
+					window.location.href='https://www.sojump.hk/jq/11305753.aspx';
+				}else if(random<=400) {
+					window.location.href='https://www.sojump.hk/jq/11370597.aspx';
+				}else if(random<=500) {
+					window.location.href='https://www.sojump.hk/jq/11372362.aspx';
 				}
 				else{
-					window.location.href='https://www.sojump.hk/jq/11305753.aspx';
+					window.location.href='https://sojump.com/jq/11270729.aspx';
 				}
 			}
 
@@ -21,18 +27,20 @@
 	</head>
 	
 	<body>
-		  <div style = "position:absolute;left:200;top:150;font-size:30px;right:200;"><center>
-                        我一位朋友想开一家淘宝店，准备进一些这样的裤子，他想了解消费者对于这件裤子的态度是怎样的。
-所以，想请您帮忙看一下。接下来请您点击进入评估。看一下裤子的图文资料，并回答相关题目。谢谢！
+		  
+
+<div style = "position:absolute;left:200;top:150;font-size:30px;right:200;"><center>
+                        一位朋友他想开一家淘宝店卖冲锋裤。作为顾客的您对这件冲锋裤的感觉如何对他来说非常重要。接下来请您点击进入评估。谢谢！
               </center> </div>
 
 
-		  <div style="position:absolute;left:100;right:100;top:350;text-decoration:underline;"  onclick = "goto()"><center><button id="btn" style="background:#3F3;font-size:60px;cursor: pointer;"><b>请点击这里</button></center></div>
+		  <div style="position:absolute;left:100;right:100;top:350;"  onclick = "goto()"><center><button id="btn" style="text-decoration:underline;background:#3F3;font-size:60px;cursor: pointer;color:blue;"><b>请点击这里</button></center></div>
                 
 <script>
-    document.getElementById('btn').onmouseover = function(){this.style.background = '#3CF'}
+    document.getElementById('btn').onmouseover = function(){this.style.background = 'yellow'}
     document.getElementById('btn').onmouseout = function(){this.style.background = '#3F3'}
-</script>      
+</script>  
+ 
 
 		
 	</body>
